@@ -1,0 +1,72 @@
+body{
+    background: url(./images/coffee\ pean.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+.menu{
+    background-color: burlywood;
+    width:80%;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10%;
+}
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 30px;
+}
+h1,h2{
+    font-family: Impact,sans-serif;
+}
+
+.italic{
+    font-style: italic;
+}
+h1,h2,p{
+    text-align: center;
+}
+hr{
+    border: 1px solid brown;
+    background-color: brown;
+  
+}
+img{
+    display: block;
+    margin: 0px auto;
+}
+
+.item p{
+display:inline-block;
+margin: 5px 0px;
+font-size: 18px;
+
+}
+.flavor,.dessert{
+text-align: left;
+width: 75%;
+}
+.price{
+text-align: right;
+width: 25%;
+}
+
+/*footer*/
+
+footer{
+    font-size: 14px;
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
+a:active{color: brown;}
+a:hover{color: white;}
+a:visited{color:black;}
+
+.address{
+margin-bottom: 5px;
+}
